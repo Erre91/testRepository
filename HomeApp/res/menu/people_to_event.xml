@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="francesco.workspace.homeapp.PeopleToEventActivity" >
+  
+   <item android:showAsAction="withText"
+        android:id="@+id/filter_people"
+        android:orderInCategory="60"
+        android:title="Filter for the people"/>
+
+    <item android:showAsAction="withText"
+        android:id="@+id/category_people"
+        android:orderInCategory="70"
+        android:title="Choose the category"/>
+    
+    <item android:showAsAction="withText"
+        android:id="@+id/selectAll_people"
+        android:orderInCategory="80"
+        android:title="Select all"/>
+
+    <item android:showAsAction="withText"
+        android:id="@+id/deselectAll_people"
+        android:orderInCategory="80"
+        android:title="Deselect all"/>
+
+    
+</menu>

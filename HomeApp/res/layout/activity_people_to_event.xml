@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="francesco.workspace.homeapp.PeopleToEventActivity" >
+
+    
+    <RelativeLayout 
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+      	android:layout_height="match_parent"
+      	android:gravity="center"
+      	>
+       	<ProgressBar 
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:indeterminate="true"
+       	    />
+    </RelativeLayout>
+         
+   <LinearLayout
+       android:id="@+id/footer"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/defaultActBar">
+
+       <ImageButton
+           android:id="@+id/saveButton2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="@null"
+           android:layout_marginLeft="10dp"
+           android:layout_gravity="center_vertical"
+           android:src="@drawable/ic_action_search"
+       />
+
+       <EditText
+           android:id="@+id/inputSearch"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="3"
+           android:ems="10"
+           android:scrollHorizontally="true"
+           android:inputType="text"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+	       android:textSize="18sp"
+	       android:textColor="@color/whiteSmoke_text" >
+       </EditText>
+
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="7dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_action_save" 
+            android:background="@null" />
+       
+   </LinearLayout>
+
+   <TextView
+       android:id="@+id/no_event"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:layout_centerHorizontal="true"
+       android:textSize="30dp"
+       android:text="No pending events!"
+       android:visibility="invisible"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+   <ListView
+       android:id="@+id/listViewPeople"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/footer" >
+   </ListView>
+   
+</RelativeLayout>

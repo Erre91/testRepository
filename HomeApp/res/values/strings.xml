@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tap Event</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_group">Group of people</string>
+    <string name="action_edit">Edit event</string>
+    <string name="title_activity_details_event">My event</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_people_to_event">PeopleToEventActivity</string>
+    <string name="inserisci_dati">Inserisci i tuoi dati:</string>
+    <string name="login_usr">Username: </string>
+    <string name="login_psw">Password:</string>
+    <string name="loginCheckBox_button">Ricordami</string> 
+    <string name="scopri">Cos\&apos;è App questa qua?</string>
+    <string name="website">http://www.eurecom.fr</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="title_activity_new_event">NewEventActivity</string>
+    <string name="save_event">SAVE EVENT</string>
+    <string name="event_date">Date</string>
+    <string name="event_location">Location</string>
+    <string name="event_time">Time</string>
+    <string name="event_name">Subject</string>
+    <string name="reg_user">Tipo utente:</string>
+	<string name="reg_psw">Scegli password:</string>
+	<string name="reg_psw2">Ripeti password:</string>
+	<string name="reg_nome">Nome: </string>
+    <string name="reg_cognome">Cognome:</string>
+    <string name="reg_email2">Ripeti email:</string>
+	<string name="reg_email">Email:</string>
+	<string name="reg_farma">Vuoi acquistare un\&apos;unità PharmaCopter e diventare un farmacia distributore? Contattaci al +39 320 62 71 908: un nostro operatore provvederà a fissare un colloquio per la stipula del contratto.</string>
+	<string name="registrati">Registrati</string>
+	<string name="caricando">Elaborazione dei dati&#8230;</string>
+	
+	<string name="logoImmagine">Immagine (logo) del login</string>
+	<string name="hint_username">Username</string>
+	<string name="hint_name">Name</string>
+	<string name="hint_lastname">Lastname</string>
+	<string name="hint_password">Password</string>
+	<string name="hint_email">Email</string>
+	<string name="hint_repeatEmail">Repeat Email</string>
+	<string name="hint_repeatPassword">Repeat Password</string>
+    
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    
+    <string name="register_msg">Not yet registered? Register now!</string>
+	<string name="returnToLogin">Go to the Login: click here!</string>
+	<string name="event_creator">Creatore dell evento</string>
+	<string name="event_Subject">Subject:</string>
+	<string name="title_myEvents">Invitations</string>
+    <string name="title_manageEvents">Manage events</string>
+    <string name="title_manageGroups">Your groups</string>
+    <string name="title_calendar">Google calendar</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_logout">Log out</string>
+    
+    <string name="date_event">"Date"</string>
+    <string name="hour_event">"Hour"</string>
+    <string name="event_description">Description</string>
+	
+	
+</resources>

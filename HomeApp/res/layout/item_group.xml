@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical" >
+
+ 	<ImageView
+        android:id="@+id/group_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="21dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/event_creator"
+        android:src="@drawable/group_medium" />
+    
+    <TextView
+       android:id="@+id/item_groupName"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/group_image"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="22dp"
+       android:textSize="22dp"
+       android:text="Group Name"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <TextView
+       android:id="@+id/item_groupCreator"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@+id/group_image"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="7dp"
+       android:layout_below="@+id/item_groupName"
+       android:text="CREATOR" />
+
+</RelativeLayout>

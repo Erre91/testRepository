@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+    android:icon="@drawable/ic_action_location_found"    
+     android:id="@+id/searchGps"
+     android:title="ADD POSITION" 
+     android:showAsAction="ifRoom">
+    </item>
+    
+    
+    <item 
+    android:icon="@drawable/ic_action_save"    
+     android:id="@+id/addEvent"
+     android:title="@+string/save_event" 
+     android:showAsAction="ifRoom">
+    </item>
+    
+</menu>

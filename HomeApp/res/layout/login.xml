@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" 
+    tools:context="francesco.workspace.loginpage.MainActivity"
+    android:background="@color/darkBlue">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:descendantFocusability="beforeDescendants"
+	android:focusableInTouchMode="true">
+
+    <ImageView
+        android:id="@+id/logo_imageView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+      	android:layout_marginTop="50dp"
+        android:src="@drawable/icon_login"
+        android:contentDescription="@string/logoImmagine" >  
+	</ImageView>
+	
+    <EditText
+        android:id="@+id/username_inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/logo_imageView"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/hint_username"
+        android:text=""
+        android:inputType="text"
+        android:textColor="@color/whiteSmoke_text"
+        android:textColorHint="@color/darkGray"
+        android:textColorLink="@color/white_text" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/psw_inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/username_inputText"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="20dp"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="@color/whiteSmoke_text" 
+        android:textColorHint="@color/darkGray"
+        android:textColorLink="@color/white_text">
+    </EditText>
+    
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:ems="10"
+		android:layout_below="@+id/psw_inputText"
+	    android:layout_marginTop="40dp"
+	    android:layout_marginLeft="20dp"
+	  	android:layout_marginRight="20dp"
+        android:text="@string/login_button"
+        android:textColor="@color/white_text" 
+        android:textAlignment="center"
+        android:onClick="loginClick" >
+    </Button>
+
+    <TextView
+        android:id="@+id/register_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/login_button"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="150dp"
+        android:text="@string/register_msg"
+        android:textColor="@color/whiteSmoke_text"
+        android:textSize="12sp" 
+		android:clickable="true"
+        android:onClick="onRegisterClick" >
+    </TextView> 
+
+</RelativeLayout>
+
+</ScrollView>

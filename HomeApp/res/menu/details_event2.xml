@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="francesco.workspace.homeapp.DetailsEventActivity" >
+    
+        <item 
+          android:icon="@drawable/ic_action_group"
+          android:id="@+id/action_group"
+          android:title="@string/action_group"
+          android:showAsAction="ifRoom" 
+          android:visible="true"/>
+    
+</menu>

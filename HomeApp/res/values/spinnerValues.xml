@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_value">
+        <item>Professor</item>
+        <item>Student</item>
+        <item>Secretary</item>
+        <item>Director</item>
+        <item>Guest</item>
+    </string-array>
+</resources>

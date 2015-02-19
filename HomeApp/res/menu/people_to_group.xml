@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="francesco.workspace.homeapp.PeopleToEventActivity" >
+
+    <item android:showAsAction="withText"
+        android:id="@+id/category_people"
+        android:orderInCategory="70"
+        android:title="Choose the category"/>
+
+    <item android:showAsAction="withText"
+        android:id="@+id/all_people"
+        android:orderInCategory="80"
+        android:title="All"/>
+    
+    <item
+        android:icon="@drawable/ic_action_add_group"
+        android:id="@+id/addPeople"
+        android:showAsAction="always" 
+        android:title="Add people"/>
+        
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/event_CreatorImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/event_creator"
+        android:src="@drawable/people_black" />
+
+    <TextView
+        android:id="@+id/event_nameCreator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/event_CreatorImage"
+        android:text="togliere@eurecom.fr"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#003366" />
+
+    <TextView
+        android:id="@+id/eventSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/event_CreatorImage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/event_Subject"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#003366"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eventDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventSubject"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Anche questo da togliere quando tutto sarà pronto" />
+    
+
+    <TextView
+        android:id="@+id/event_textHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/eventDescription"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="10:00"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/event_textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/eventDescription"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="20/04/1991"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <View
+        android:id="@+id/item_separator2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/event_textHour"
+        android:layout_marginTop="30dp"
+        android:background="@color/lvDividerColor" />
+
+</RelativeLayout>

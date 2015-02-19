@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/darkBlue"
+    tools:context="francesco.workspace.homeapp.DetailsEventActivity" >
+
+    
+   <TableLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:stretchColumns="1" >
+	    
+	    <FrameLayout
+	       android:id="@+id/second_fragment_content"
+	       android:layout_width="match_parent"
+	       android:layout_height="430dp" >
+			       
+		    <ImageView
+		        android:id="@+id/second_mapNotAvaible"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:adjustViewBounds="true"
+		        android:contentDescription="@string/event_creator"
+		        android:src="@drawable/sicily_map" 
+		        android:visibility="invisible"/>
+          
+	    </FrameLayout>
+ 
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="@color/white_text"
+	        android:orientation="horizontal" >
+
+	        <ImageView
+	            android:id="@+id/second_CreatorImage_event"
+	            android:layout_width="100dp"
+	            android:layout_height="100dp"
+	            android:layout_marginTop="20dp"
+	            android:layout_marginBottom="20dp"
+	            android:contentDescription="@string/event_creator"
+	            android:src="@drawable/nerd_black" />
+
+	        <View
+	            android:id="@+id/second_item_separator"
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/lvDividerColor" />
+	        
+			<RelativeLayout
+			    android:layout_width="209dp"
+			    android:layout_height="match_parent" >
+
+			    <TextView
+			        android:id="@+id/second_subjectEvent"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="3dp"
+			        android:layout_marginTop="25dp"
+			        android:text="@string/event_Subject"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textSize="22sp" />
+
+			    <TextView
+			        android:id="@+id/second_dataEvent"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_below="@+id/second_subjectEvent"
+			        android:layout_marginLeft="3dp"
+			        android:layout_marginTop="27dp"
+			        android:text="@string/date_event"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textSize="22sp" />
+
+			    <TextView
+			        android:id="@+id/second_hourEvent"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_below="@+id/second_subjectEvent"
+			        android:layout_marginLeft="5dp"
+			        android:layout_marginTop="27dp"
+			        android:layout_toRightOf="@id/second_dataEvent"
+			        android:text="@string/hour_event"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textSize="22sp" />
+			</RelativeLayout>
+			
+			<RelativeLayout 
+		       	android:layout_width="match_parent"
+		        android:layout_height="match_parent" >
+
+			 <ImageView
+			     android:id="@+id/second_info_button"
+			     android:layout_width="70dp"
+			     android:layout_height="70dp"
+			     android:layout_centerVertical="true"
+			     android:layout_marginRight="20dp"
+			     android:clickable="true"
+			     android:contentDescription="Event Informations"
+			     android:onClick="infoClick"
+			     android:src="@drawable/info_64_black" />
+				    
+		    </RelativeLayout>
+
+	    </LinearLayout>
+         
+
+	    
+    </TableLayout>
+       
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="User Settings">
+        <CheckBoxPreference android:key="email" android:title="Email" android:summary="Disable email intent"/>
+        <CheckBoxPreference android:title="Notification" android:summary="Disable Notifications" android:key="notification"/>
+        <CheckBoxPreference android:title="Calendar" android:summary="Disable calendar intent" android:key="calendar"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

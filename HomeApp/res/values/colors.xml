@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="black">#FF000000</color>
+    <color name="blue_fb">#3b5998</color>
+    <color name="whiteSmoke_text">#F5F5F5</color>
+    <color name="white_text">#FFFFFF</color>
+    <color name="darkGray">#A9A9A9</color>
+    <color name="darkBlue">#2F2F4F</color>
+    <color name="redViolet">#C71585</color>
+    <color name="greenRafTotaro">#00A86B</color>
+    <color name="theGreen">#D0F0C0</color>    
+    <color name="defaultActBar">#222222</color>    
+    
+    
+    
+    <color name="lvHeaderDividerColor">#168686</color>
+    <color name="lvHeaderTextColor">#168686</color>
+    <color name="lvDividerColor">#E0E0E0</color>
+    
+</resources>
